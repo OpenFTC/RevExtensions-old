@@ -19,7 +19,7 @@
  * SOFTWARE.
  */
 
-package org.openftc.extendedrc.android.rev;
+package org.openftc.hardware.rev;
 
 import android.graphics.Color;
 
