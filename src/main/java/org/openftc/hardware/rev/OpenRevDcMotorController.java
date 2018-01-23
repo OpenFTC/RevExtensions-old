@@ -52,14 +52,16 @@ public class OpenRevDcMotorController extends LynxCommExceptionHandler implement
         realController = controller;
 
         // To access the current sensors, we need an instance of the Expansion Hub (LynxModule)
-        // itself. We can get this through the LynxDcMotorController, but only through reflection.
+        // itself, or a PretendLynxModule. We can get this through the LynxDcMotorController,
+        // but only through reflection.
         Method getModule_method;
+
         try {
-            // The "module" field is located within LynxDcMotorController's parent
+            // The "getModule" method is located within LynxDcMotorController's parent
             // class, LynxController
             getModule_method = LynxController.class.getDeclaredMethod("getModule");
 
-            // Ensures the field is accessable for the next line. We still catch
+            // Ensures the method is accessible for the next line. We still catch
             // the (impossible) IllegalAccessException just to be safe.
             getModule_method.setAccessible(true);
 
