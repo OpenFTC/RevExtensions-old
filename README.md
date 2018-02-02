@@ -1,6 +1,8 @@
 [![Discord](https://img.shields.io/discord/377144270034829324.svg?style=for-the-badge)](https://discord.gg/ameFTnC)
 
-# RC-Extensions
+# Rev Extensions
+
+This repository contains extensions for the Rev Expansion Hub, adding functionality not exposed in the core SDK.
 
 #### NOTE: This repository does not include a complete development environment due to the dependency on the FTC SDK (https://github.com/ftctechnh/ftc_app).
 
