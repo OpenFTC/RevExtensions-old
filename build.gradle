@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs') // Comment this if using with OpenRC
-    implementation project(':FtcRobotControler') // Comment this if using with OpenRC
+    implementation project(':FtcRobotController') // Comment this if using with OpenRC
 
     //implementation project(':Hardware') // Uncomment this if using with OpenRC
     //implementation project(':RobotCore') // Uncomment this if using with OpenRC
