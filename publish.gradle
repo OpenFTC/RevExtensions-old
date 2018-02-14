@@ -37,7 +37,7 @@ publishing {
             groupId 'org.openftc'
             artifactId 'revextensions'
             version this.version
-            
+
             pom.withXml {
                 def root = asNode()
                 root.appendNode('description', 'Rev Expansion Hub extensions for FTC, adding functionality not exposed in the core ftc_app SDK. Compatible with both OpenRC and ftc_app.')
