@@ -11,11 +11,11 @@ This repository contains extensions for the Rev Expansion Hub, adding functional
 1) Clone the ftc_app repository (we suggest a shallow clone, i.e. `git clone https://github.com/ftctechnh/ftc_app --depth 1` because we have no need of the ftc_app history)
 
     If you already have a copy of ftc_app or OpenRC, no need to repeat this step.
-2) Inside the ftc_app directory, clone RC-Extensions (`git clone https://github.com/OpenFTC/RC-Extensions`)
+2) Inside the ftc_app directory, clone RevExtensions (`git clone https://github.com/OpenFTC/RevExtensions`)
 
     If you don't wish to use Git, you may instead download a copy of this repository and extract it as a folder.
 3) Open the ftc_app folder in Android Studio
-4) After a full sync completes (including any applicable Gradle updates and installations), add `include ':RC-Extensions'` to a new line in settings.gradle.
+4) After a full sync completes (including any applicable Gradle updates and installations), add `include ':RevExtensions'` to a new line in settings.gradle.
 5) Sync
 
 ## Usage
