@@ -1,3 +1,5 @@
+## This repository won't be supported next season. We'll have a version with a new, simpler install process coming out summer 2018.
+
 [![Discord](https://img.shields.io/discord/377144270034829324.svg?style=for-the-badge)](https://discord.gg/ameFTnC)
 
 # Rev Extensions
