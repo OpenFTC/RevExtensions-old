@@ -1,4 +1,4 @@
-## This repository won't be supported next season. We'll have a version with a new, simpler install process coming out summer 2018.
+## Rev Extensions has been replaced with [RevExtensions2](https://github.com/OpenFTC/RevExtensions2). This repository is now depricated and is no longer supported.
 
 [![Discord](https://img.shields.io/discord/377144270034829324.svg?style=for-the-badge)](https://discord.gg/ameFTnC)
 
